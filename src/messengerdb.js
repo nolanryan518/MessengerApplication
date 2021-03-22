@@ -2,7 +2,7 @@ const { json } = require('body-parser');
 const { SSL_OP_CIPHER_SERVER_PREFERENCE } = require('constants');
 
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://valadezjrr1:9GhgEp38kVFU6Aln@bestmessengerdb.bmb6e.mongodb.net/BestMessengerDB?retryWrites=true&w=majority";
+const uri = "*******EDITEDOUT*******";
 const mongodbclient = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 let db = null;
 
