@@ -1,0 +1,27 @@
+{
+  "name": "messenger",
+  "version": "2.0.0",
+  "description": "Messenger Node.js App for CPS490 - by Nolan Hollingsworth, Andrew Streng, Roberto Valadez, and Chase Hensley",
+  "main": "chatserver.js",
+  "scripts": {
+    "test": "node chatserver.js",
+    "start": "node chatserver.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/cps490f20-team7/cps490-project-team7.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Socket.io",
+    "Capstone"
+  ],
+  "author": "Nolan Hollingsworth, Andrew Streng, Roberto Valadez, and Chase Hensley",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/cps490f20-team7/cps490-project-team7#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {}
+}
